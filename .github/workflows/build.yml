@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [K2P, K2P-USB]
+        target: [ZTE-E8820V2]
         toolchain: [mipsel-linux-musl]
 
     steps:
